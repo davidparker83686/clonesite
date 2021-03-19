@@ -1,0 +1,37 @@
+.loewe{
+  background-image: url(/map.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+}
+
+.loewecont{
+  margin: 5rem;
+}
+
+.infobox{
+
+}
+
+.bl{
+  list-style-type: none;
+}
+.foot{
+  background-color:#e5e6e6;
+  font: hsl(0, 0%, 20%)
+}
+
+.rel{
+  position: relative;
+}
+
+.abs{
+  position: absolute;
+  bottom: -1.5rem;
+
+}
+
+
+.spill{
+  font-size: 20px;
+}
