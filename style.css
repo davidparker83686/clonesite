@@ -5,12 +5,19 @@
   min-height: 75vh;
 }
 
-.loewecont{
-  margin: 5rem;
+.corner{
+  border-radius: 5px;
 }
 
-.infobox{
+.txtcenter{
+  text-align-last:center;
+}
+.center{
+justify-content: center;
+}
 
+.loewecont{
+  margin: 5rem;
 }
 
 .bl{
@@ -25,17 +32,13 @@
   position: relative;
 }
 
-
-
-
-.spill{
-  position: absolute;
-  bottom: -5rem;
-  font-size: 20px;
-  margin-left: 60rem
+@media screen and (min-width:760px){
+  .spill{
+    position: absolute;
+    bottom: -5rem;
+    right: 5rem;
+    font-size: 20px;
+  }
 }
 
-.marg{
-  margin-top: 20rem;
-}
 
