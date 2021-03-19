@@ -25,13 +25,17 @@
   position: relative;
 }
 
-.abs{
-  position: absolute;
-  bottom: -1.5rem;
 
-}
 
 
 .spill{
+  position: absolute;
+  bottom: -5rem;
   font-size: 20px;
+  margin-left: 60rem;
 }
+
+.marg{
+  margin-top: 20rem;
+}
+
