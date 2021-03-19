@@ -20,6 +20,10 @@ justify-content: center;
   margin: 5rem;
 }
 
+.jacquemuscont{
+  align-self: center;
+}
+
 .bl{
   list-style-type: none;
 }

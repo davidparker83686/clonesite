@@ -6,7 +6,7 @@
 
 Utilizes custom font on at least one element
 
-Sticky Navbar on scroll
+##Sticky Navbar on scroll
 
 ##The Text Over Image is hidden on mobile (@media Rule)
 
@@ -16,7 +16,7 @@ Sticky Navbar on scroll
 
 ##Specified elements order changes based on screen size
 
-Cards are vertically centered with the center card larger for emphasis
+##Cards are vertically centered with the center card larger for emphasis
 
 ##Appropriate use of Margins and Padding
 
