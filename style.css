@@ -1,9 +1,24 @@
+:root{
+  --base: rgb(255, 252, 209);
+  --basetext:  #0d0c18;
+  --basetwo:rgb(216, 213, 167);
+
+}
+
 .loewe{
-  background-image: url(/map.png);
+  background-image: url(/loewe.png);
   background-size: cover;
   background-position: center;
   min-height: 75vh;
 }
+
+.balback{
+  background-image: url(/balback.png);
+  background-size: cover;
+  background-position: center;
+  /* min-height: 75vh; */
+}
+
 .corner{
   border-radius: 5px;
 }
@@ -36,4 +51,26 @@ justify-content: center;
     right: 5rem;
     font-size: 20px;
   }
+}
+
+.spillalways{
+  background-color: var(--basetext);
+  color: var(--base);
+}
+
+.base{
+  background-color:var(--base);
+}
+
+.basetext{
+  color: var(--basetext);
+}
+
+.basetexttwo{
+  color: var(--base);
+}
+
+.basetwo{
+  background-color: var(--basetwo);
+  color: var(--basetext);
 }
