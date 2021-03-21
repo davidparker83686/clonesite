@@ -15,6 +15,18 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;800&display=swap" rel="stylesheet">
+
   <title>Barneys New York</title>
 </head>
 
@@ -29,7 +41,7 @@
 
 
 <!-- nav bar -->
-  <header class="container-fluid bg-dark sticky-top">
+  <header class="container-fluid bg-dark sticky-top headertext">
         <nav class="navbar navbar-expand-lg navbar-dark text-white">
           <a class="navbar-brand" href="#">BARNEYS NEWYORK</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -39,16 +51,11 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
-                  Dropdown
+                  Women
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -57,13 +64,26 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Men
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
               </li>
+              <li class="nav-item"><a class="nav-link" href="#">Designers</a></li>
+              
+
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             </form>
           </div>
         </nav>
@@ -77,11 +97,11 @@
     <div class="row loewe">
 
       <div class="col-md-3 m-md-5">
-        <h1 class="text-white txtcenter"> WELCOME</h1>
+        <h1 class="text-white txtcenter">  WELCOME </h1>
 
-        <form class="base p-3 corner">
+        <form class="base p-3 corner headertext">
           <div class="form-group ">
-            <p class="center basetext mt-3"><b>Returning Customer Login</b></p>
+            <p class="center basetext mt-3">Returning Customer Login</p>
             <input type="email" class="form-control mt-3" id="exampleInputEmail1" aria-describedby="emailHelp"
               placeholder="User Name">
             <div class="form-group">
@@ -96,9 +116,9 @@
         </form>
       </div>
 
-      <div class=" col-md-6 loewecont d-none d-md-block ">
-        <h1>Loewe S/S 21</h1>
-        <p>Shop the looks directly from Jonathan Anderson's newest show for Loewe.</p>
+      <div class=" col-md-6 loewecont d-none d-md-block basetexttwo py-5">
+        <h1>Annual Spring Sale 4/9/21-4/18/21</h1>
+        <p>Join us for our Annual Spring Sale for our lowest prices of the year. Enjoy an addional 20% savings on all clearance</p>
       </div>
 
     </div>
@@ -110,13 +130,12 @@
     <div class="row base rel">
 
       <div class="col-12 col-md-6 m-2 m-md-5 order-2 order-md-1 ">
-        <p class="basetext"><b>LKJLKJ:LKJ:LKJ</b></p>
-        <p class="basetext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestiae doloremque qui magnam
-          necessitatibus dolores nostrum harum dicta? Laborum voluptates quasi ab possimus aliquam suscipit itaque nulla
-          ipsam iste rerum?</p>
+        <p class="basetext"><b>STAY UP TO DATE </b></p>
+        <p class="basetext">
+          Make sure to create a BARNEYS insider account. Gain access to insider exclusive sales as well as sales early to all our public sales, exclusive birthday vouchers and be the first to be notified when the newest designer items drop. BARNEYS insiders also acrew points on every purchase that can be used towards the purchase of any full priced item.</p>
       </div>
 
-      <div class=" col-11 col-md-4 py-4 spill spillalways corner order-1 order-md-2 m-3 m-md-0">
+      <div class=" col-11 col-md-4 py-4 spill spillalways corner order-1 order-md-2 m-3 m-md-0 spilltext">
         <p><i class="fas fa-globe-americas px-4"></i> Find the Nearest Location</p>
         <p><i class="far fa-calendar-alt px-4"></i> Schedule an Apointment with a Senior Stylist </p>
         <p><i class="fas fa-truck px-4"></i> Track Your Purchases </p>
@@ -131,36 +150,18 @@
 
 
     <!-- large image row -->
-    <div class="row bg-danger balback">
+    <div class="row  balback baltext">
 
       <div class="col-11 col-md-5 m-3 my-md-5">
         <img class="w-100" src="balone.png">
       </div>
 
-
-      <div class="col-11 col-md-6 m-3 mt-md-5 jacquemuscont">
-        <div class="card basetwo">
-          <div class="card-body"><h1><b>LVMH Prize Winner Demna Gvaslia's New Collection For BALENCIAGA Just Landed in Store</b></h1></div>
-          <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur a veritatis delectus dolor. Quos eum odit iure mollitia explicabo expedita fuga possimus dignissimos sapiente nulla dicta, provident, nesciunt ullam accusantium?</div>
-        </div>
-
-        <div class="row d-none d-md-block ">
-          <div class="col-md-3">
-            <img class="w-100" src="balone.png" alt="BALENCIAGA">
-          </div>
-          <div class="col-md-3">
-            <img class="w-100" src="baltwo.png" alt="BALENCIAGA">
-          </div>
-          <div class="col-md-3">
-            <img class="w-100" src="balthree.png" alt="BALENCIAGA">
-          </div>
-        </div>
-
-
+      <div class="col-11 col-md-6 m-3 mt-md-5 jacquemuscont  ">
+        <div class="card spillalways">
+          <div class="card-body"><h1>BALENCIAGA S/S 21</h1><h2> Fresh off the runway and into your closet, be the first to cop the newest pieces from the collection.</h2></div>
+          <div class="card-body d-none d-md-block">Balenciaga Summer 21 reimagines dressing for work: power dressing, no matter what one does as a job. Looks transform a wearer in the way a uniform can. Unlike their archetypes, though, garments and accessories are made using unconventional processes. New Fashion Uniforms, for example, invent a powerful but convertible shoulder line, while other garments shift a pattern so that seams twist around the body. Seamless Tailoring introduces a new shape for suits in all styles. The newest Balenciaga sneaker, the Tyrex, is made with a sinuous network of athletic elements to form the silhouette of a classic office shoe. New Trompe L’oeil sets one style against another, creating a familiar archetype with inventive materials. Super Plissé presses an entire ultra-large garment with pleats. Pillow Parkas are made of lightweight outerwear lined with inflated puffer jackets. Fetish Gowns are made with negligee-like lace, but in voluminous shapes. Wearable Ballroom dresses reference the couture House’s legacy in contemporary textiles, with removable crinolines, to be worn in any setting. Models of various career tracks interpret and play on beauty standards of today, the past, and the future.</div>
+        </div> 
       </div>
-
-
-
 
     </div>
 
@@ -168,14 +169,14 @@
 
 
     <!-- my interview stuff -->
-    <div class="row justify-content-around align-items-center text-md-center basetext base">
+    <div class="row justify-content-around align-items-center text-md-center basetext bg-light">
 
       <div class="col-md-3 order-3 order-md-1 m-2">
-        <div class="card basetwo">
+        <div class="card base">
           <div class="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus veritatis itaque.
+            A closer look at the current footwear trends you need to punch up your spring wardrobe.
           </div>
-          <div class="card-body"><b>AUTHORS NAME</b></div>
+          <div class="card-body"><b>ARIEL CANDYS</b></div>
         </div>
       </div>
 
@@ -183,22 +184,22 @@
 
 
       <div class="col-md-3 order-1 order-md-2 m-2">
-      <div class="card basetwo">
+      <div class="card base">
         <div class="card-body">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem totam ab consequatur optio ducimus placeat recusandae, illo harum sunt nesciunt sint sequi adipisci quibusdam hic maiores, minima dolorum rerum fuga.
+          Sit in on my intimate interviw with Gabriela Hearst where we discuss her views on Sustainability, her time at Central Saint Martins and her process behind creating her debut collection for Chloe during the Covid lockdowns.
         </div>
-        <div class="card-body"><b>AUTHORS NAME</b></div>
+        <div class="card-body"><b>SARAH KELLY</b></div>
       </div>
       </div>
 
 
 
       <div class="col-md-3 order-2 order-md-3 m-2">
-        <div class="card basetwo">
+        <div class="card base">
           <div class="card-body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio deserunt corrupti hic reiciendis repellendus eos saepe q
+            On the 10 year anniversary of Alexander McQueens passing we sit down with IG archivist @McQueenVault to discuss his lasting impact.
           </div>
-          <div class="card-body"><b>AUTHORS NAME</b></div>
+          <div class="card-body"><b>KAYLEE LORSON</b></div>
         </div>
       </div>
 
@@ -210,11 +211,11 @@
 
 
     <!-- about us careers stuff -->
-    <div class="row basetwo ">
+    <div class="row spillalways headertext">
 
 
 
-      <div class="col-12 col-md-3 text-secondary">
+      <div class="col-12 col-md-3 text-">
         <ul class="bl my-md-5"> <b>About Us</b>
           <div class="d-none d-md-block">
             <li class="mt-3">Careers </li>
@@ -226,7 +227,7 @@
       </div>
 
 
-      <div class="col-12 col-md-3 text-secondary">
+      <div class="col-12 col-md-3 text-">
         <ul class="bl my-md-5"> <b>Help</b>
           <div class="d-none d-md-block">
             <li class="mt-3">COVID-19 Response</li>
@@ -239,7 +240,7 @@
       </div>
 
 
-      <div class="col-12 col-md-3 text-secondary">
+      <div class="col-12 col-md-3 text-">
         <ul class="bl my-md-5"> <b>Privacy</b>
           <div class="d-none d-md-block">
             <li class="mt-3">Privacy/Ad Cookies</li>
@@ -250,7 +251,7 @@
         </ul>
       </div>
 
-      <div class="col-12 col-md-3 text-secondary">
+      <div class="col-12 col-md-3 text-">
         <ul class="bl my-md-5"> <b>Community</b>
           <div class="d-none d-md-block">
             <li class="mt-3">Parsons New School</li>
@@ -277,7 +278,7 @@
 
 
   <!-- footer infobox-->
-  <footer class="container-fluid spillalways">
+  <footer class="container-fluid bg-dark">
 
     <div class="row text-center  ">
       <div class="col-md-6">
